@@ -1,0 +1,17 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "pkr6C9fQlyo9WfXhjD6XQ"
+uri = "file://.local/conversation-workspace/files/PLAN.md"
+type = "text"
+title = "Updated portfolio site plan"
+description = "Plan checked against the assignment brief and expanded with missing requirements. Implementation awaits approval."
+logical_id = "2fd383b1-33e3-4111-9c8c-0212c831fb48"
+content_hash = "sha256:4d7f0b06875be14981e9a8c716a2f073cb474c0c9f846226393449f89d729032"
+size = 4267
+mtime_ms = 1791156626387
+storage_uri = "gcs://replit-rams-assets-reed/rams/assets/conversation:7e28082d-e7b4-48b5-8dd5-b60095e4ba2b/2fd383b1-33e3-4111-9c8c-0212c831fb48/c0e88491-babf-45f7-8338-9ae2964374a6"
+storage_version_token = "1791156641701653"
+content_type = "text/markdown"
+source_uri = "file://PLAN.md"

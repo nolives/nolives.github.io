@@ -1,0 +1,32 @@
+title: "nolives — Portfolio"
+description: "A personal portfolio for nolives."
+url: "https://nolives.github.io"
+baseurl: ""
+lang: "en"
+author:
+  name: "nolives"
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - README.md
+  - PLAN.md
+  - replit.md
+  - .replit
+  - .replitignore
+  - .gitignore
+  - .local/
+  - .conversation/
+  - .agents/
+  - .cache/
+  - attached_assets/
+  - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - _site/
+  - .jekyll-cache/
+  - .sass-cache/
+  - .jekyll-metadata

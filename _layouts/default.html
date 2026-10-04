@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}" data-theme="light">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="site-shell header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="nolives, home">
+          <span class="brand-mark" aria-hidden="true">n.</span>
+          <span class="brand-name">nolives</span>
+        </a>
+        {% include navigation.html %}
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">
+          <span class="theme-toggle-indicator" aria-hidden="true"></span>
+          <span data-theme-label>Light</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="site-shell page-shell" id="main-content">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+  </body>
+</html>

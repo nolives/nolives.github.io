@@ -1,0 +1,1 @@
+- [Temporary CLI tooling](temporary-cli-tooling.md) — Replit's Node package installer creates root manifests even for one-off audits; remove them before finishing a static-only Jekyll task.

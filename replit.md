@@ -1,45 +1,25 @@
-# [Project name]
+# Personal Jekyll Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+This repository is the complete static Jekyll site for `nolives.github.io`. Keep the website files at the repository root so GitHub Pages can publish from `main` and `/`.
 
-## Run & Operate
+## Run and preview
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `jekyll serve` — preview locally at `http://127.0.0.1:4000`
+- `jekyll build` — build the static site into `_site/`
+- GitHub Pages publishes the source directly; it does not need a separate build workflow.
 
-## Stack
+## Project rules
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
-
-## Where things live
-
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Keep page content in root-level Markdown files with YAML front matter; use reusable Jekyll layouts and includes for shared design.
+- Keep the project static: no nested application, backend, database, Node app, `package.json`, or framework.
+- Use `relative_url` for internal links and asset paths. Keep `baseurl` empty for the GitHub user site.
+- Do not invent biographical details, employers, achievements, metrics, clients, or projects. Keep missing résumé content visibly marked as placeholders; do not fetch personal information from URLs.
+- Do not add a public email link. Use only contact methods the user has supplied.
+- Preserve semantic HTML, responsive behavior, accessible color contrast, and keyboard access.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- Use karpathy.ai as the sole structural inspiration; do not copy its design or content.
+- Light and dark themes.
+- Clean, modern typography.
+- The résumé will be provided later.
