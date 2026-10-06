@@ -7,7 +7,7 @@ permalink: /
 
 <section class="home-intro" aria-labelledby="page-title">
   <h1 id="page-title">Hi, I’m Nick.</h1>
-  <p class="intro-copy">I’m pursuing an MBA at UC Berkeley’s Haas School of Business and recently completed a Finance Manager internship at Microsoft. I’m a CPA, with experience at PwC and PUMA.</p>
+  <p class="intro-copy">I’m pursuing an MBA at UC Berkeley’s Haas School of Business. I’m a CPA, and I’ve worked in finance and accounting at Microsoft, PwC, and PUMA.</p>
 
   <p class="home-links">
     <a href="https://www.linkedin.com/in/nickolives/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
@@ -22,24 +22,32 @@ permalink: /
   <h2 id="background-title">Background</h2>
   <dl class="facts">
     <div>
-      <dt>Studying</dt>
-      <dd>MBA, UC Berkeley Haas School of Business</dd>
-    </div>
-    <div>
-      <dt>Recently</dt>
-      <dd>Finance Manager internship, Microsoft</dd>
-    </div>
-    <div>
       <dt>Experience</dt>
-      <dd>PwC · PUMA</dd>
-    </div>
-    <div>
-      <dt>Credentials</dt>
-      <dd>Certified Public Accountant (CPA) <span class="fact-note">2020 Elijah Watt Sells Award</span></dd>
+      <dd>
+        <ul class="entries">
+          <li><span class="entry-org">Microsoft</span> <span class="entry-role">Finance Manager Intern</span></li>
+          <li><span class="entry-org">PUMA</span> <span class="entry-role">Senior Tax Accountant · Tax Accountant</span></li>
+          <li><span class="entry-org">PwC</span> <span class="entry-role">Senior Associate · Associate</span></li>
+        </ul>
+      </dd>
     </div>
     <div>
       <dt>Education</dt>
-      <dd>B.S. in Accounting and Business Analytics, Boston College</dd>
+      <dd>
+        <ul class="entries">
+          <li><span class="entry-org">UC Berkeley, Haas School of Business</span> <span class="entry-role">MBA, in progress</span></li>
+          <li><span class="entry-org">Boston College</span> <span class="entry-role">B.S. in Accounting and Business Analytics</span></li>
+        </ul>
+      </dd>
+    </div>
+    <div>
+      <dt>Credentials</dt>
+      <dd>
+        <ul class="entries">
+          <li><span class="entry-org">Certified Public Accountant (CPA)</span></li>
+          <li><span class="entry-org">Elijah Watt Sells Award</span> <span class="entry-role">2020</span></li>
+        </ul>
+      </dd>
     </div>
   </dl>
 </section>

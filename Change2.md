@@ -7,6 +7,8 @@
 
   > Nick is pursuing an MBA at UC Berkeley's Haas School of Business and recently completed a Finance Manager internship at Microsoft. He is a CPA with experience at PwC and PUMA, and received the 2020 Elijah Watt Sells award. He graduated from Boston College with a B.S. in Accounting and Business Analytics.
 
+- Roles supplied by Nick for the Background section: Microsoft, Finance Manager Intern; PUMA, Senior Tax Accountant and Tax Accountant; PwC, Senior Associate and Associate.
+
 - Remove the standalone About page and all links to it. Keep the biographical content on the homepage.
 - Add Nick's LinkedIn profile as a contact option while retaining GitHub:
   `https://www.linkedin.com/in/nickolives/`
@@ -19,12 +21,12 @@ Chosen after reviewing four options (editorial, ledger, bold minimal, warm & per
 - **Editorial**, like a well-set magazine or annual report rather than a startup template.
 - **Type:** system serif fonts only (Iowan Old Style, Palatino, Charter, Georgia), with small uppercase sans-serif labels. No web fonts to download.
 - **Color:** warm off-white "paper" background, near-black ink, and a single oxblood accent; a matching dark theme with a light rose accent for contrast.
-- **Layout:** drop the bordered cards, the numbered "01 / PROJECTS" monospace labels, and the "n." badge. Use a narrow single column with ruled lists: label/value rows for background and contact, and a ruled project list with the language on the right.
+- **Layout:** drop the bordered cards, the numbered "01 / PROJECTS" monospace labels, and the "n." badge. Use a narrow single column with ruled lists: label/value rows for background (organization with role beneath) and contact, and a ruled project list with the language on the right.
 - **Header:** the name "Nick" as the brand, with text-only navigation and theme toggle.
 
 ## Scope
 
-- Update the homepage introduction and replace its “A little more” section with a **Background** section, using only the approved summary and its supporting details, avoiding repeated placeholder copy.
+- Update the homepage introduction and replace its “A little more” section with a résumé-style **Background** section grouped into Experience, Education, and Credentials, using only the approved summary and supplied roles. Keep the intro short so it does not repeat the Background details.
 - Delete `about.md`; remove `/about/` links from homepage navigation and primary navigation; remove the About URL from `sitemap.xml`.
 - Update `contact.md` to include the supplied LinkedIn profile link alongside GitHub.
 - Restyle `assets/css/site.css` in the editorial direction above, and simplify the header in `_layouts/default.html`.
