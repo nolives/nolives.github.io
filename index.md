@@ -31,6 +31,7 @@ permalink: /
     <article class="project-card">
       <p class="project-language">HTML</p>
       <h3><a href="https://github.com/nolives/custom-llm" target="_blank" rel="noopener noreferrer">custom-llm <span aria-hidden="true">↗</span></a></h3>
+      <p>Course project training a tiny nanoGPT model on a chosen corpus, evaluating it against 48 fixed language tests, and trying it through a simple chat interface.</p>
     </article>
     <article class="project-card">
       <p class="project-language">Jupyter Notebook</p>

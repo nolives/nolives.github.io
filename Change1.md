@@ -4,13 +4,14 @@
 
 - Replace the placeholder in “Selected work” with links to the four public project repositories selected by the site owner: `personal-wiki`, `custom-llm`, `mspacman-agent`, and `networkingtracker`.
 - Replace the homepage name placeholder with “Nick.”
+- Add a concise, assignment-based summary to the `custom-llm` project card.
 - Remove the standalone Work Experience page and remove links to it from the home page and primary navigation.
 - Keep the remaining portfolio pages and project links usable on desktop and mobile.
 - Keep this planning file in the repository for the assignment, but exclude it from the published site.
 
 ## Scope
 
-- Add GitHub project cards to the home page using the selected repositories’ names, URLs, and available repository descriptions.
+- Add GitHub project cards to the home page using the selected repositories’ names, URLs, available repository descriptions, and the assignment-based `custom-llm` summary.
 - Delete the Experience page and its unused styles.
 - Update site documentation to reflect the page removal.
 
