@@ -4,11 +4,11 @@ A static Jekyll portfolio for GitHub Pages. The Jekyll source is in this reposit
 
 ## Update the site
 
-- Edit `index.md`, `about.md`, and `contact.md` to update the page content.
+- Edit `index.md` (introduction, background, and projects) and `contact.md` (LinkedIn and GitHub links) to update the page content. The biography lives on the home page; there is no separate About page.
 - Keep page copy in Markdown with YAML front matter. Shared HTML belongs in `_layouts/` and `_includes/`; styling is in `assets/css/site.css`.
-- Replace every bracketed placeholder only with details supplied by the site owner. Do not add unverified roles, projects, clients, dates, or accomplishments.
+- Add or change details only with information supplied by the site owner. Do not add unverified roles, projects, clients, dates, or accomplishments.
 - Change `url` in `_config.yml` if the GitHub Pages domain changes. Keep `baseurl: ""` for the GitHub user site.
-- Do not add a public email address unless the owner explicitly changes that choice.
+- Contact options are LinkedIn and GitHub. Do not add a public email address unless the owner explicitly changes that choice.
 
 ## Preview locally
 
@@ -39,11 +39,12 @@ In the repository settings, choose **Pages → Deploy from a branch → `main` �
 - Shared layout, navigation, footer, and metadata are reusable Liquid includes; page-specific writing stays in Markdown.
 - Internal paths use Jekyll URL filters, and `baseurl` is empty for a GitHub user site.
 - SEO metadata, a generated sitemap, and an SVG favicon are included without external trackers, remote fonts, or runtime libraries.
+- The design is editorial: system serif type (no web fonts to download), a warm paper background, a single oxblood accent, and ruled lists instead of cards. Colors are defined once as CSS custom properties with light and dark sets.
 - A small theme script respects the system color preference, allows a manual light/dark switch, and remembers the visitor's choice locally.
 
 ## Assumptions
 
 - The GitHub user-site URL is `https://nolives.github.io`.
-- The public GitHub profile is an acceptable non-email contact link. No email address is displayed.
-- Biographical and work-history content will remain placeholders until the owner supplies a résumé or text.
+- LinkedIn and the public GitHub profile are the contact links. No email address is displayed.
+- Biographical content comes only from the summary the owner approved in `Change2.md`.
 - The simple `n.` favicon is a temporary mark based on the supplied GitHub username and can be replaced if the owner provides a logo.
