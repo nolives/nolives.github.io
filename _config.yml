@@ -12,6 +12,7 @@ kramdown:
   hard_wrap: false
 exclude:
   - README.md
+  - Change1.md
   - PLAN.md
   - replit.md
   - .replit

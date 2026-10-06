@@ -4,7 +4,7 @@ A static Jekyll portfolio for GitHub Pages. The Jekyll source is in this reposit
 
 ## Update the site
 
-- Edit `index.md`, `about.md`, `experience.md`, and `contact.md` to update the page content.
+- Edit `index.md`, `about.md`, and `contact.md` to update the page content.
 - Keep page copy in Markdown with YAML front matter. Shared HTML belongs in `_layouts/` and `_includes/`; styling is in `assets/css/site.css`.
 - Replace every bracketed placeholder only with details supplied by the site owner. Do not add unverified roles, projects, clients, dates, or accomplishments.
 - Change `url` in `_config.yml` if the GitHub Pages domain changes. Keep `baseurl: ""` for the GitHub user site.

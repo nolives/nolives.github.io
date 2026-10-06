@@ -13,17 +13,36 @@ permalink: /
 
   <nav class="home-links" aria-label="Explore the portfolio">
     <a class="text-link" href="{{ '/about/' | relative_url }}">About <span aria-hidden="true">↗</span></a>
-    <a class="text-link" href="{{ '/experience/' | relative_url }}">Work experience <span aria-hidden="true">↗</span></a>
     <a class="text-link" href="{{ '/contact/' | relative_url }}">Contact <span aria-hidden="true">↗</span></a>
   </nav>
 </section>
 
 <section class="content-section selected-work" aria-labelledby="selected-work-title">
   <div class="section-heading">
-    <p class="eyebrow">01 <span class="eyebrow-divider" aria-hidden="true">/</span> WORK</p>
+    <p class="eyebrow">01 <span class="eyebrow-divider" aria-hidden="true">/</span> PROJECTS</p>
     <h2 id="selected-work-title">Selected work</h2>
   </div>
-  <p class="placeholder-copy">[Projects will be added here only if you provide their details.]</p>
+  <div class="project-grid">
+    <article class="project-card">
+      <p class="project-language">Python</p>
+      <h3><a href="https://github.com/nolives/personal-wiki" target="_blank" rel="noopener noreferrer">personal-wiki <span aria-hidden="true">↗</span></a></h3>
+      <p>Personal study wiki using a local Gemma 4 E4B model, BM25 retrieval, an Obsidian vault, and offline evidence.</p>
+    </article>
+    <article class="project-card">
+      <p class="project-language">HTML</p>
+      <h3><a href="https://github.com/nolives/custom-llm" target="_blank" rel="noopener noreferrer">custom-llm <span aria-hidden="true">↗</span></a></h3>
+    </article>
+    <article class="project-card">
+      <p class="project-language">Jupyter Notebook</p>
+      <h3><a href="https://github.com/nolives/mspacman-agent" target="_blank" rel="noopener noreferrer">mspacman-agent <span aria-hidden="true">↗</span></a></h3>
+      <p>DQN agent trained on Atari Ms. Pac-Man, with evaluation evidence and a project write-up.</p>
+    </article>
+    <article class="project-card">
+      <p class="project-language">TypeScript</p>
+      <h3><a href="https://github.com/nolives/networkingtracker" target="_blank" rel="noopener noreferrer">networkingtracker <span aria-hidden="true">↗</span></a></h3>
+      <p>Secure networking tracker built with React, Express, Neon Postgres, and Better Auth.</p>
+    </article>
+  </div>
 </section>
 
 <section class="content-section home-about" aria-labelledby="home-about-title">
@@ -31,6 +50,6 @@ permalink: /
     <p class="eyebrow">02 <span class="eyebrow-divider" aria-hidden="true">/</span> ABOUT</p>
     <h2 id="home-about-title">A little more</h2>
   </div>
-  <p class="section-copy">A short bio and verified work history will make this portfolio yours. For now, those details are intentionally left as placeholders.</p>
+  <p class="section-copy">A short bio will make this portfolio yours. For now, those details are intentionally left as placeholders.</p>
   <a class="text-link" href="{{ '/about/' | relative_url }}">Read the about page <span aria-hidden="true">→</span></a>
 </section>
