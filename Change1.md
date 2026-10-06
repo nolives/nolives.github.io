@@ -3,6 +3,7 @@
 ## Goals
 
 - Replace the placeholder in “Selected work” with links to the four public project repositories selected by the site owner: `personal-wiki`, `custom-llm`, `mspacman-agent`, and `networkingtracker`.
+- Replace the homepage name placeholder with “Nick.”
 - Remove the standalone Work Experience page and remove links to it from the home page and primary navigation.
 - Keep the remaining portfolio pages and project links usable on desktop and mobile.
 - Keep this planning file in the repository for the assignment, but exclude it from the published site.

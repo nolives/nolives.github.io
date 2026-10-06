@@ -7,7 +7,7 @@ permalink: /
 
 <section class="home-intro" aria-labelledby="page-title">
   <p class="eyebrow">PERSONAL PORTFOLIO <span class="eyebrow-divider" aria-hidden="true">/</span> <span class="eyebrow-year">{{ site.time | date: "%Y" }}</span></p>
-  <h1 id="page-title">Hi, I’m <span class="placeholder">[Your name]</span>.</h1>
+  <h1 id="page-title">Hi, I’m Nick.</h1>
   <p class="intro-copy">[Add a short introduction about your work and professional focus from your résumé or LinkedIn About text.]</p>
   <p class="placeholder-note"><span class="note-mark" aria-hidden="true">i</span> This draft uses placeholders until you provide your résumé.</p>
 
