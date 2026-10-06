@@ -13,6 +13,7 @@ kramdown:
 exclude:
   - README.md
   - Change1.md
+  - Change2.md
   - PLAN.md
   - replit.md
   - .replit
