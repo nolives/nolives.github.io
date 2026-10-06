@@ -29,6 +29,7 @@ Chosen after reviewing four options (editorial, ledger, bold minimal, warm & per
 - Update the homepage introduction and replace its “A little more” section with a résumé-style **Background** section grouped into Experience, Education, and Credentials, using only the approved summary and supplied roles. Keep the intro short so it does not repeat the Background details.
 - Delete `about.md`; remove `/about/` links from homepage navigation and primary navigation; remove the About URL from `sitemap.xml`.
 - Update `contact.md` to include the supplied LinkedIn profile link alongside GitHub.
+- Place the Projects section above Background on the homepage, since the site's first audience is an intro-to-code class. Background can move back to the top later for recruiting.
 - Restyle `assets/css/site.css` in the editorial direction above, and simplify the header in `_layouts/default.html`.
 - Recolor the favicon to the oxblood accent.
 - Update `README.md` to reflect the homepage-only biography and LinkedIn contact option.
